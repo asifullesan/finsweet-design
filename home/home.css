@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #1C1E53;
+    padding-bottom: 128px;
+    padding-top: 20px;
+}
+
+.nav-item a {
+    font-size: 16px;
+    color: #BBBBCB;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.nav-con-btn {
+    padding: 16px 40px;
+    border-radius: 40px;
+    border: 1px solid #F4F6FC;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #1C1E53;
+    color: #ffff;
+}
+
+
+.banner-contant {
+    margin-top: 150px;
+}
+
+.mob {
+    display: none;
+}
+
+.regular-img {
+    display: block;
+}
+
+
+.banner-contant h1 {
+    color: #ffff;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+}
+
+.banner-contant p {
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 24px;
+    opacity: 0.7
+}
+
+.banner-contant a {
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.banner-contant button {
+    padding: 16px 56px;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FCD980;
+}
+
+
+/* ---------how it work------ */
+
+
+
+.how-it-work {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: #F4F6FC;
+}
+
+
+.work-main h4 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.work-main p {
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 14px;
+    opacity: 0.7
+}
+
+.left-part a {
+    font-weight: 600;
+    color: #2405F2;
+}
+
+
+.right-part .str {
+    font-size: 32px;
+    color: black !important;
+    font-weight: 500;
+}
+
+
+
+/* ---------Our project------ */
+
+
+
+.our-project {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.left h4 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.view-more a {
+    color: black;
+}
+
+.image-part {
+    margin-top: 50px;
+}
+
+.pic-three {
+    margin-left: 9px;
+    margin-top: 32px;
+}
+
+
+
+
+/* ---------design product------ */
+
+
+.design-product{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: #F4F6FC;
+}
+
+.head-text h4{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+}
+.head-text p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+.design-inner{
+    margin-top: 70px;
+}
+
+.design-inner .cart{
+    padding: 44px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+}
+.design-inner .cart .short-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    margin-top: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 575.98px) {
+
+    .mob {
+        display: block;
+    }
+
+    .mob-img {
+        width: 100%;
+    }
+
+    .regular-img {
+        display: none;
+    }
+
+    .banner-contant h1 {
+        font-size: 44px;
+        line-height: 64px;
+        margin-top: 50px;
+    }
+
+    .banner-contant button {
+        padding: 10px 36px;
+        font-size: 14px;
+    }
+
+    .banner-contant a {
+        font-size: 14px;
+        margin-top: 8px;
+        margin-left: 20px;
+    }
+
+
+
+    /* ---------how it work------ */
+
+
+
+    .right-part {
+        margin-top: 80px;
+    }
+
+    .res-mob {
+        margin-top: 48px;
+    }
+
+
+
+
+    /* ---------Our project------ */
+
+    .left h4 {
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 44px;
+    }
+
+    .view-more {
+        margin-top: 20px;
+    }
+
+    .pic-one img {
+        width: 100%;
+    }
+
+    .pic-two img {
+        margin-left: 0px;
+        margin-top: 32px;
+        width: 100%;
+    }
+
+    .pic-three {
+        width: 100% !important;
+        margin-left: 0px
+    }
+    .pic-three img {
+        margin-top: 22px !important;
+        width: 100%;
+        margin-left: 0px !important;
+    }
+
+
+
+
+
+    
+/* ---------design product------ */
+
+
+    .head-text h4{
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: center;
+    }
+
+
+
+
+}
+
+
+@media(min-width:576px) and (max-width:767.98px) {}
