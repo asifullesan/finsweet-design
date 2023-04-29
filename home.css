@@ -374,6 +374,7 @@ a {
     font-size: 40px;
     line-height: 64px;
 }
+
 .footer-right-part p {
     color: #FFFFFF;
 }
@@ -387,7 +388,7 @@ a {
 }
 
 
-.footer-bottom p{
+.footer-bottom p {
     padding: 0;
     line-height: 0;
 }
@@ -572,6 +573,7 @@ a {
 
 
 
+
     /* --------footer------- */
 
 
@@ -580,10 +582,10 @@ a {
         padding: 20px 0px 0px 20px;
         width: 92%;
     }
-    
-.footer-bottom p{
-   text-align: center;
-}
+
+    .footer-bottom p {
+        text-align: center;
+    }
 
 
 
